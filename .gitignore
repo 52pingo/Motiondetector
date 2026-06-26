@@ -1,0 +1,90 @@
+# Dataset: ignore large image files (upload as empty placeholders)
+dataset/**/*.jpg
+dataset/**/*.png
+dataset/**/*.bmp
+
+# Build artifacts
+build/
+*.exe
+*.dll
+*.obj
+*.o
+*.a
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+output/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+
+# Evaluation outputs
+eval_*/
+eval_out_*/
+evaluation_results/
+evaluation_results_v2/
+eval_batch_results.csv
+video_result/
+
+# Dataset video files
+dataset/*.mp4
+dataset/*.avi
+dataset/*.mov
+*.zip
+
+# Temp files
+tmp/
+*.tmp
+*.db
+
+# Python
+__pycache__/
+*.pyc
+
+# Model binaries (large)
+*.pt
+*.onnx
+train_output/
+
+# Generated data (very large)
+refine_data/
+train_data/
+
+# Test outputs
+test_*/
+compare_template*/
+cam12_output/
+video_result_optimized/
+video_result_tight*/
+test_refine/
+
+# Optuna
+optuna_run.log
+optuna_trials/
+best_params.json
+
+# Qt build & deploy (binaries)
+cpp_training-src/build/
+cpp_training-src/deploy/
+
+# Installer output
+MotionDetector_Setup.exe
+
+# Homework temp
+homework/实习报告.pdf
+homework/~$*
+homework/*.aux
+homework/*.log
+homework/*.out
+homework/*.bbl
+homework/*.bcf
+homework/*.blg
+homework/*.run.xml
+homework/*.thm
+
+# Misc
+evaluate_results/
+*.png
